@@ -2,7 +2,7 @@
 #include<stdlib.h>
 void printMessage(void);
 int main(void){
-	printf("Hello World\n");
+	printMessage();
 	return EXIT_SUCCESS;
 }
 void printMessage(void){
